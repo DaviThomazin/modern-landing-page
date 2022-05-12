@@ -1,0 +1,31 @@
+@import "css/reset.css";
+@import "css/header.css";
+@import "css/home.css";
+@import "css/products.css";
+
+:root {
+  --color1: #606060;
+  --color2: #ffffff;
+  --color3: #868686;
+  --color4: #989898;
+  --color5: #cecece;
+  --color6: #fafafa;
+  --color7: #000000;
+  --color8: #ffb155;
+  --color9: #1d1d1d;
+  --color10: #eeeeee;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  background-color: #fafafa;
+}
+
+.yellow {
+  color: #ffc655;
+}

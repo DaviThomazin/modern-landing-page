@@ -1,0 +1,43 @@
+.header-bg {
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.75rem;
+  background: -webkit-linear-gradient(#ffc655, #ffb155);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-left: 100px;
+}
+
+.nav-list a {
+  font-size: 1.125rem;
+  color: var(--color1);
+}
+
+.button {
+  font-size: 1.125rem;
+  background: -webkit-linear-gradient(#ffc655, #ffb155);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 1px solid #ffc655;
+  padding: 8px 12px;
+  border-radius: 20px;
+}

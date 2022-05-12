@@ -1,0 +1,47 @@
+.home-bg {
+  background: url(/img/home-bg.jpg) no-repeat;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 564px;
+}
+
+.home h1 {
+  padding-top: 170px;
+  font-size: 2.625rem;
+  font-weight: 400;
+}
+
+.home h2 {
+  font-size: 1.75rem;
+  font-weight: 400;
+}
+
+.home p {
+  max-width: 34ch;
+  font-size: 1.125rem;
+  color: var(--color1);
+  padding-top: 8px;
+}
+
+.button-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  padding-top: 30px;
+}
+
+.button-home {
+  color: var(--color9);
+  background-color: #ffca56;
+  padding: 8px 32px;
+  border-radius: 20px;
+}
+
+.button-home2 {
+  color: var(--color9);
+  border: 1px solid #000000;
+  border-radius: 20px;
+  padding: 8px 16px;
+}
